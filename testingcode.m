@@ -19,7 +19,7 @@ num = int8(90.00);
 count = 0;
 for da = 1:50
 c=int8(scores(1,da)*100);
-if c > num
+if c > num1
     count = count + 1 ;
 end 
 end
